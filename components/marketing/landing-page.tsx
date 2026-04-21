@@ -62,7 +62,7 @@ export function LandingPage({ snapshot }: { snapshot: PortalSnapshot }) {
   const featuredCertificate = snapshot.recentCertificates[0];
 
   return (
-    <div className="page-shell mx-auto max-w-[1500px] overflow-hidden">
+    <div className="page-shell mx-auto max-w-full overflow-hidden">
       <div className="px-6 pb-10 pt-6 md:px-10 md:pb-14">
         <header className="flex flex-col gap-5 border-b border-[color:var(--line)] pb-6 md:flex-row md:items-center md:justify-between">
           <Brand subtitle="Tamper-Proof Credentials" />
