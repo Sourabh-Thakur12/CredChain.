@@ -69,7 +69,7 @@ export function LandingPage({ snapshot }: { snapshot: PortalSnapshot }) {
           <nav className="flex flex-wrap items-center gap-3 text-sm text-[#6E628C]">
             <Link href="#features" className="rounded-full px-3 py-2 transition hover:text-[#4F26DA]">
               Features
-            </Link>
+            </Link> 
             <Link href="#how-it-works" className="rounded-full px-3 py-2 transition hover:text-[#4F26DA]">
               How It Works
             </Link>
